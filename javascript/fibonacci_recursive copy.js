@@ -17,11 +17,7 @@ function fibonacci(n, a=0, b=1) {
   // additional challenge
   // if n<100, must only have max 4 recusive calls
   /**
-   * 0 a b
-   * 1 b a+b
-   * 2 a+b a+2b
-   * 3 a+2b 2a+3b
-   * 4 2a+3b 3a+4b
+   * use rainbow table to "memoize" every 4th result in advance
    */
 }
 
